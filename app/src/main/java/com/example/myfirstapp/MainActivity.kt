@@ -30,7 +30,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
+@Composables
+@Composables
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello Apex planet $name!",
